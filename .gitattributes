@@ -2,6 +2,11 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
+# Ignore shaders and related files from GitHub language stats
+*.shader linguist-vendored
+*.hlsl linguist-vendored
+*.cginc linguist-vendored
+
 
 ###############################################################################
 # Set default behavior for command prompt diff.
